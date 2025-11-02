@@ -1,0 +1,89 @@
+{
+  "textMateRules": [
+    { "name": "comment",
+      "scope": [ "comment", "comment.line.double-slash.odin", "punctuation.definition.comment"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#5ed464b8"
+      }
+    },
+    {
+      "name": "function",
+      "scope": [ "entity.name.function" ],
+      "settings": {
+        "foreground": "#ECFFFF"
+        // "fontStyle": "italic"
+      }
+
+    },
+    {
+      "name": "operator",
+      "scope": [ "meta.block" ],
+      "settings": {
+        "foreground": "#89DDFF",
+      }
+    },
+    {
+      "name": "type",
+      "scope": [ "storage.type" ],
+      "settings": {
+        "foreground": "#FFCB6B",
+        // "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "builtin",
+      "scope": [ "support.function" ],
+      "settings": {
+        "foreground": "#89DDFF",
+        // "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "keywords",
+      "scope": [ "keyword.other.type" ],
+      "settings": {
+        "foreground": "#89DDFF",
+      }
+    },
+    {
+      "name": "empty",
+      "scope": [ "meta.block" ],
+      "settings": {
+        "foreground": "#EEE",
+      }
+    }
+  ]
+},
+},
+"workbench.colorCustomizations": {
+
+// "widget.border": "#2b303b", // new
+// "window.activeBorder": "#2b303b", // new
+// "editor.findMatchHighlightBorder": "#999", // new
+// "editor.selectionBackground": "#3b82f680", //new
+// "sideBar.background": "#2b303b", // 可选：边栏背景色
+// "sideBarSectionHeader.background": "#2b303b", //new
+
+// "activityBar.background": "#2b303b", // 可选：活动栏背景色
+// "titleBar.activeBackground": "#2b303b", // 可选：标题栏背景
+
+// "terminal.background": "#2b303b", //new
+// "panel.background": "#2b303b", //new
+// "editorGutter.background": "#2b303b", //new
+// "editorLineNumber.foreground": "#666", // 行号颜色
+// "editorLineNumber.activeForeground": "#eee", // new
+// "editorGroupHeader.tabsBackground": "#2b303b", //new
+// "sideBarTitle.background": "#2b303b", //new
+// "statusBar.background": "#2b303b", //new
+
+// "tab.activeBackground": "#343943", // 当前激活 tab 背景
+
+// "tab.inactiveBackground": "#2a2a2a", // 非激活 tab 背景
+// "editor.lineHighlightBackground": "#1073cf2d", //new
+// "tab.activeBorderTop": "#3a9dfa", //new
+// "tab.activeBorder": "#2b303b", //new
+// "editorUnnecessaryCode.border": "#f5c2c6", //newV
+
+},

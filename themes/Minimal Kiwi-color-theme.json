@@ -803,20 +803,6 @@
 			}
 		},
 		{
-			"scope": "comment",
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#4A4A4A"
-			}
-		},
-		{
-			"scope": "comment punctuation.definition.comment, string.quoted.docstring",
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#4A4A4A"
-			}
-		},
-		{
 			"scope": "punctuation",
 			"settings": {
 				"foreground": "#89DDFF"
